@@ -79,20 +79,28 @@ header {
 }
 
 
-.site-links{
+.site-links {
     height: 75px;
     border-bottom: 1px solid rgb(201, 188, 188);
     border-top: 1px solid rgb(201, 188, 188);
     margin: 20px 200px;
     padding-left: 45px;
     padding-top: 25px;
-    
+
 
 }
 
-.site-links img{
+.site-links img {
     padding-right: 50px;
 
+}
+
+.collection {
+    color: #3A3A3A;
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 120px 0px 50px 0px;
 }
 
 
@@ -137,28 +145,28 @@ header {
     }
 
     .container-column {
-        padding-top:10px;
+        padding-top: 10px;
         align-items: center;
         text-align: center;
     }
-    
+
     .header-title {
         font-size: 1.75rem;
     }
-    
-    .site-links{
+
+    .site-links {
         border: none;
         margin: 0px auto;
-        padding-left:15px;
+        padding-left: 15px;
         text-align: center;
         margin-top: 30px;
     }
-    
-    .site-links img{
-        height:18px;
-        padding:10px 15px;
-        
-    
+
+    .site-links img {
+        height: 18px;
+        padding: 10px 15px;
+
+
     }
 
 }
