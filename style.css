@@ -3,6 +3,8 @@ body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 header {
@@ -255,7 +257,7 @@ footer i{
     }
 
     .card-section {
-        margin: 10px;
+        margin: 20px;
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -265,4 +267,18 @@ footer i{
 
     }
 
+    .feature {
+        margin:20px;
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .feature-column1 img{
+        width: 100%;
+    }
+     
+    footer {
+        margin-top:40px;
+    }
 }
