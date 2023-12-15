@@ -103,10 +103,65 @@ header {
     margin: 120px 0px 50px 0px;
 }
 
+.card-section {
+    margin: 20px 210px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
 
+.card {
+    padding: 15px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
 
+.card-title {
+    color: #18191F;
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin: 0px;
+    margin-top: 10px;
+}
 
+.card-price {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 5px 0px;
+}
 
+.card-description {
+    color: #787885;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.see-more {
+    margin-left: 1165px;
+    margin-top: 45px;
+    color: rgba(224, 44, 109, 0.87);
+    font-weight: 700;
+}
+
+.feature {
+    margin: 60px 180px;
+    display: flex;
+    gap: 95px;
+}
+
+.feature-column2 h1 {
+    color: #0A0826;
+    font-size: 2.30rem;
+    font-weight: 700;
+
+}
+
+.feature-column2 p{
+    color: #6C6C6C;
+    font-weight: 700;
+}
 
 
 
@@ -166,6 +221,23 @@ header {
         height: 18px;
         padding: 10px 15px;
 
+
+    }
+
+    .collection {
+        font-size: 1.25rem;
+        text-align: center;
+        margin: 60px 10px 30px 10px;
+    }
+
+    .card-section {
+        margin: 10px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .see-more {
+        margin-left: 250px;
+        margin-top: 25px;
 
     }
 
