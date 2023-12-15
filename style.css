@@ -158,12 +158,36 @@ header {
 
 }
 
-.feature-column2 p{
+.feature-column2 p {
     color: #6C6C6C;
     font-weight: 700;
 }
 
+footer {
+    height: 230px;
+    background-color: #0A0826;
+    margin-top: 100px;
+    text-align: center;
+}
 
+.footer-heading {
+    padding-top: 40px;
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.footer-description {
+    color: #D9DBE1;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+footer i{
+    color: #FFF;
+    padding-right: 15px;
+}
 
 
 
